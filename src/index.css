@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    overflow: hidden;
+  }
+  
+img, video{
+width: 100%;
+height: 100vh;
+}
+iframe {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE e Edge */
+  }
+  
+  iframe::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }

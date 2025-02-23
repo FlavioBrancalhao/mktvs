@@ -1,0 +1,98 @@
+.weather-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+h2 {
+    font-size: 2rem;
+}
+.whather-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.temperature {
+   color: brown;
+    font-size: 7rem;
+}
+
+.description {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100px;
+    font-size: larger;
+}
+.text-title{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+
+    color: white;
+    font-size: 3rem;
+
+}
+.img-2{
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+    border-radius: 13px;
+    
+    
+
+}
+.img-principal{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 13px;
+    margin-right: 20px;
+}
+.sub-title {
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 10px;
+
+}
+.Text-1{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.sen-term{
+    font-size: 1.5em;
+    color: brown;
+}
+.umidade{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.valor{
+    font-size: 1.5em;
+    color: brown;
+}
+iframe {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE e Edge */
+  }
+  
+  iframe::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }

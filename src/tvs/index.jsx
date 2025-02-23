@@ -21,6 +21,7 @@ const App = () => {
   const [gif9, setGif9] = useState(null);
   const [gif10, setGif10] = useState(null);
   
+  
 
   useEffect(() => {
     if (!id) return;
@@ -54,7 +55,7 @@ const App = () => {
       setGif8(mensagem?.gif8 || null);
       setGif9(mensagem?.gif9 || null);
       setGif10(mensagem?.gif10 || null);
-     
+      
     }
     
   }, [mensagem]);
@@ -72,7 +73,7 @@ const App = () => {
     { type: gif9 === null ? null : "gif", src: gif9 },
     { type: gif10 === null ? null : "gif", src: gif10 },
     { type: "tempo" },
-    { type: "gif", src: '../../public/gif7.gif' },
+    { type: "gif", src: 'https://i.postimg.cc/WzYS2x2H/gif7.gif' },
     { type: "noticia" },
 ];
 

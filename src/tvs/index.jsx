@@ -73,7 +73,7 @@ const App = () => {
     { type: gif9 === null ? null : "gif", src: gif9 },
     { type: gif10 === null ? null : "gif", src: gif10 },
     { type: "tempo" },
-    { type: "gif", src: 'https://i.postimg.cc/WzYS2x2H/gif7.gif' },
+    { type: "gif", src: 'https://i.postimg.cc/FKwy0gB9/MARKETING-EM-TV.gif' },
     { type: "noticia" },
 ];
 

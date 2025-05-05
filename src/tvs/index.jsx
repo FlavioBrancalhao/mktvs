@@ -80,7 +80,7 @@ const App = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    let time = videos[currentIndex]?.type === null ? -1 : 10000;
+    let time = videos[currentIndex]?.type === null ? -1 : 30000;
 
     const interval = setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % videos.length);
